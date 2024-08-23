@@ -30,3 +30,13 @@ The following movies are scraped:
    ```bash
    /movies/scores, GET
    /movies/scrape, GET
+
+3. Considerations
+- **Data Storage:** The scores are stored as JSON files in the `src/data` directory.
+- **Aggregation:** None currently, but could be added to calculate averages.
+- **System Utilization:** JSON format makes it easy for other systems to utilize the data.
+- **Performance:** Optimized for sequential requests to avoid server overload.
+- **Scalability:** Modular design allows adding more sources or movies easily.
+- **Error Handling:** Logs errors to the console and skips saving data if scraping fails.
+
+This setup provides a robust foundation for scraping and storing movie scores from the given sources.
