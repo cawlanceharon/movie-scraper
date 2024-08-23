@@ -1,0 +1,27 @@
+{
+  "Casper": {
+    "imdb": "6.2/10",
+    "rottenTomatoes": "52/100",
+    "metaCritic": "49/100"
+  },
+  "Drop Dead Fred": {
+    "imdb": null,
+    "rottenTomatoes": "11/100",
+    "metaCritic": "68/100"
+  },
+  "Dumb and Dumber": {
+    "imdb": "7.3/10",
+    "rottenTomatoes": null,
+    "metaCritic": "36/100"
+  },
+  "Stand by Me": {
+    "imdb": "8.1/10",
+    "rottenTomatoes": "92/100",
+    "metaCritic": "75/100"
+  },
+  "Toy Story": {
+    "imdb": "8.3/10",
+    "rottenTomatoes": "100/100",
+    "metaCritic": "96/100"
+  }
+}
