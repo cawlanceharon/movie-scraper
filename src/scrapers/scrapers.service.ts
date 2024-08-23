@@ -34,10 +34,13 @@ export class ScrapersService {
 
   // Main scraping function that iterates over the list of movies and collects their scores.
   async scrape() {
-    const results = {};
+    const results = [];
     // Iterate through each movie and scrape scores from different sources.
     for (const movie of this.movies) {
-      results[movie.title] = await this.scrapeMovieScores(movie.title, movie.year);
+      results.push({
+        title: movie.title,
+        scores: await this.scrapeMovieScores(movie.title, movie.year),
+      });
     }
     // Store the collected data in a JSON file.
     this.storeData(results);
