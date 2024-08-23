@@ -22,7 +22,7 @@ The following movies are scraped:
 1. Clone the repository:
    ```bash
    git clone https://github.com/cawlanceharon/movie-scraper
-   cd movie-scores-scraper
+   cd movie-scraper
    yarn install
    yarn start
 
