@@ -27,5 +27,6 @@ The following movies are scraped:
    yarn start
 
 2. Rest API
-    /movies/scores, GET
-    /movies/scrape, GET
+   ```bash
+   /movies/scores, GET
+   /movies/scrape, GET
